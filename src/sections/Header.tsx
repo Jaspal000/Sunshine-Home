@@ -50,7 +50,7 @@ const Header = () => {
           >
             <span className="text-xl sm:text-2xl">☀️</span>
             <span
-              className={`font-bold text-sm sm:text-base md:text-xl tracking-tight transition-colors whitespace-nowrap ${
+              className={`font-bold text-[10px] xs:text-xs sm:text-base md:text-xl tracking-tight transition-colors ${
                 isScrolled ? 'text-gray-900' : 'text-gray-900'
               }`}
             >

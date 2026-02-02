@@ -40,7 +40,7 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-8">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          
+          <a
             href="#home"
             onClick={(e) => {
               e.preventDefault();
@@ -50,18 +50,20 @@ const Header = () => {
           >
             <span className="text-xl sm:text-2xl">☀️</span>
             <span
-              className={`font-bold text-[10px] xs:text-xs sm:text-base md:text-xl tracking-tight transition-colors ${
+              className={`font-bold text-sm sm:text-base md:text-xl tracking-tight transition-colors whitespace-nowrap ${
                 isScrolled ? 'text-gray-900' : 'text-gray-900'
               }`}
             >
-              SUNSHINE HOME MAINTENANCE
+              <span className="hidden xs:inline">SUNSHINE HOME</span>
+              <span className="xs:hidden">SUNSHINE</span>
+              <span className="hidden sm:inline"> MAINTENANCE</span>
             </span>
           </a>
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-6 xl:gap-8">
             {navLinks.map((link) => (
-              
+              <a
                 key={link.name}
                 href={link.href}
                 onClick={(e) => {
@@ -79,14 +81,14 @@ const Header = () => {
 
           {/* CTA Button - Desktop */}
           <div className="hidden lg:flex items-center gap-3 xl:gap-4">
-            
-              href="tel:07472986701"
+            <a
+              href="tel:07399108188"
               className={`flex items-center gap-2 text-sm font-medium transition-colors whitespace-nowrap ${
                 isScrolled ? 'text-gray-700' : 'text-gray-800'
               } hover:text-[#0056b3]`}
             >
               <Phone className="w-4 h-4" />
-              07472 986 701
+              07399 108 188
             </a>
             <button
               onClick={() => scrollToSection('#contact')}
@@ -115,7 +117,7 @@ const Header = () => {
           <div className="lg:hidden mt-3 pb-3 border-t border-gray-100 pt-3 animate-fade-in bg-white/95 backdrop-blur-md rounded-lg mt-2 -mx-3 px-3 shadow-lg">
             <nav className="flex flex-col gap-1">
               {navLinks.map((link) => (
-                
+                <a
                   key={link.name}
                   href={link.href}
                   onClick={(e) => {
@@ -127,12 +129,12 @@ const Header = () => {
                   {link.name}
                 </a>
               ))}
-              
-                href="tel:07472986701"
+              <a
+                href="tel:07399108188"
                 className="flex items-center gap-2 text-gray-700 font-medium py-2.5 px-2 hover:text-[#0056b3] hover:bg-gray-50 rounded-lg transition-colors"
               >
                 <Phone className="w-4 h-4" />
-                07472 986 701
+                07399 108 188
               </a>
               <button
                 onClick={() => scrollToSection('#contact')}

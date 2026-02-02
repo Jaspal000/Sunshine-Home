@@ -128,11 +128,11 @@ const Header = () => {
                 </a>
               ))}
               
-                href="tel:07399108188"
+                href="tel:07472986701"
                 className="flex items-center gap-2 text-gray-700 font-medium py-2.5 px-2 hover:text-[#0056b3] hover:bg-gray-50 rounded-lg transition-colors"
               >
                 <Phone className="w-4 h-4" />
-                07399 108 188
+                07472 986 701
               </a>
               <button
                 onClick={() => scrollToSection('#contact')}

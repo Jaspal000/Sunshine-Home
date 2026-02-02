@@ -40,7 +40,7 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-8">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <a
+          
             href="#home"
             onClick={(e) => {
               e.preventDefault();
@@ -54,16 +54,14 @@ const Header = () => {
                 isScrolled ? 'text-gray-900' : 'text-gray-900'
               }`}
             >
-              <span className="hidden xs:inline">SUNSHINE HOME</span>
-              <span className="xs:hidden">SUNSHINE</span>
-              <span className="hidden sm:inline"> MAINTENANCE</span>
+              SUNSHINE HOME MAINTENANCE
             </span>
           </a>
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-6 xl:gap-8">
             {navLinks.map((link) => (
-              <a
+              
                 key={link.name}
                 href={link.href}
                 onClick={(e) => {
@@ -81,7 +79,7 @@ const Header = () => {
 
           {/* CTA Button - Desktop */}
           <div className="hidden lg:flex items-center gap-3 xl:gap-4">
-            <a
+            
               href="tel:07399108188"
               className={`flex items-center gap-2 text-sm font-medium transition-colors whitespace-nowrap ${
                 isScrolled ? 'text-gray-700' : 'text-gray-800'
@@ -117,7 +115,7 @@ const Header = () => {
           <div className="lg:hidden mt-3 pb-3 border-t border-gray-100 pt-3 animate-fade-in bg-white/95 backdrop-blur-md rounded-lg mt-2 -mx-3 px-3 shadow-lg">
             <nav className="flex flex-col gap-1">
               {navLinks.map((link) => (
-                <a
+                
                   key={link.name}
                   href={link.href}
                   onClick={(e) => {
@@ -129,7 +127,7 @@ const Header = () => {
                   {link.name}
                 </a>
               ))}
-              <a
+              
                 href="tel:07399108188"
                 className="flex items-center gap-2 text-gray-700 font-medium py-2.5 px-2 hover:text-[#0056b3] hover:bg-gray-50 rounded-lg transition-colors"
               >

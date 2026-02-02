@@ -104,7 +104,7 @@ const Footer = () => {
               </a>
 
               <a
-                href="mailto:hello@sunshinehomemaintenance.co.uk"
+                href="mailto:contact@sunshinehomemaintenance.co.uk"
                 className="flex items-center gap-3 sm:gap-4 group"
               >
                 <div className="w-11 h-11 sm:w-14 sm:h-14 bg-white rounded-lg sm:rounded-xl shadow-md flex items-center justify-center group-hover:bg-[#0056b3] transition-colors flex-shrink-0">
@@ -113,7 +113,7 @@ const Footer = () => {
                 <div className="min-w-0">
                   <div className="text-xs sm:text-sm text-gray-500 mb-0.5 sm:mb-1">Email Us</div>
                   <div className="text-base sm:text-lg md:text-xl font-semibold text-gray-900 group-hover:text-[#0056b3] transition-colors truncate">
-                    hello@sunshinehomemaintenance.co.uk
+                    contact@sunshinehomemaintenance.co.uk
                   </div>
                 </div>
               </a>
@@ -125,7 +125,7 @@ const Footer = () => {
                 <div className="min-w-0">
                   <div className="text-xs sm:text-sm text-gray-500 mb-0.5 sm:mb-1">Service Area</div>
                   <div className="text-lg sm:text-xl font-semibold text-gray-900">
-                    Manchester & Surrounding Areas
+                    Edinburgh & Surrounding Areas
                   </div>
                 </div>
               </div>
@@ -285,7 +285,7 @@ const Footer = () => {
             <div className="flex items-center gap-2">
               <span className="text-xl sm:text-2xl">☀️</span>
               <span className="font-bold text-sm sm:text-lg text-gray-900">
-                SUNSHINE HOME
+                SUNSHINE HOME MAINTENANCE
               </span>
             </div>
             <p className="text-xs sm:text-sm text-gray-500 text-center">

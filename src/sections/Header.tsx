@@ -82,13 +82,13 @@ const Header = () => {
           {/* CTA Button - Desktop */}
           <div className="hidden lg:flex items-center gap-3 xl:gap-4">
             <a
-              href="tel:07399108188"
+              href="tel:07472986701"
               className={`flex items-center gap-2 text-sm font-medium transition-colors whitespace-nowrap ${
                 isScrolled ? 'text-gray-700' : 'text-gray-800'
               } hover:text-[#0056b3]`}
             >
               <Phone className="w-4 h-4" />
-              07399 108 188
+              07472 986 701
             </a>
             <button
               onClick={() => scrollToSection('#contact')}

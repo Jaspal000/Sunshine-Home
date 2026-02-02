@@ -89,7 +89,7 @@ const Footer = () => {
             {/* Contact Details */}
             <div className="reveal opacity-0 space-y-4 sm:space-y-6 animation-delay-100">
               <a
-                href="tel:07399108188"
+                href="tel:07472986701"
                 className="flex items-center gap-3 sm:gap-4 group"
               >
                 <div className="w-11 h-11 sm:w-14 sm:h-14 bg-white rounded-lg sm:rounded-xl shadow-md flex items-center justify-center group-hover:bg-[#0056b3] transition-colors flex-shrink-0">
@@ -98,7 +98,7 @@ const Footer = () => {
                 <div className="min-w-0">
                   <div className="text-xs sm:text-sm text-gray-500 mb-0.5 sm:mb-1">Call Us</div>
                   <div className="text-lg sm:text-xl font-semibold text-gray-900 group-hover:text-[#0056b3] transition-colors">
-                    07399 108 188
+                    07472 986 701
                   </div>
                 </div>
               </a>

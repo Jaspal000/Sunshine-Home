@@ -48,16 +48,14 @@ const Header = () => {
             }}
             className="flex items-center gap-1.5 sm:gap-2 group flex-shrink-0"
           >
-            <span className="text-xl sm:text-2xl">☀️</span>
-            <span
-              className={`font-bold text-sm sm:text-base md:text-xl tracking-tight transition-colors whitespace-nowrap ${
-                isScrolled ? 'text-gray-900' : 'text-gray-900'
-              }`}
-            >
-              <span className="hidden xs:inline">SUNSHINE HOME</span>
-              <span className="xs:hidden">SUNSHINE</span>
-              <span className="hidden sm:inline"> MAINTENANCE</span>
-            </span>
+<span className="text-xl sm:text-2xl">☀️</span>
+<span
+  className={`font-bold text-base sm:text-lg md:text-2xl tracking-tight transition-colors whitespace-nowrap ${
+    isScrolled ? 'text-gray-900' : 'text-gray-900'
+  }`}
+>
+  SUNSHINE HOME MAINTENANCE
+</span>
           </a>
 
           {/* Desktop Navigation */}

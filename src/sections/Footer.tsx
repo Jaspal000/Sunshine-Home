@@ -125,7 +125,7 @@ const Footer = () => {
                 <div className="min-w-0">
                   <div className="text-xs sm:text-sm text-gray-500 mb-0.5 sm:mb-1">Service Area</div>
                   <div className="text-lg sm:text-xl font-semibold text-gray-900">
-                    Edinburgh & Surrounding Areas
+                    Teesside & Surrounding Areas
                   </div>
                 </div>
               </div>

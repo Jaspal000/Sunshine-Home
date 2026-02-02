@@ -113,7 +113,7 @@ const Footer = () => {
                 <div className="min-w-0">
                   <div className="text-xs sm:text-sm text-gray-500 mb-0.5 sm:mb-1">Email Us</div>
                   <div className="text-base sm:text-lg md:text-xl font-semibold text-gray-900 group-hover:text-[#0056b3] transition-colors truncate">
-                    contact@sunshinehomemaintenance.co.uk
+                    contact@sunshinemaintinance.co.uk
                   </div>
                 </div>
               </a>
